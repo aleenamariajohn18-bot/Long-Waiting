@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="dashboard.css">
+    <meta charset="UTF-8">
+    <title>Hospital Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Hospital Queue Registration</h2>
+
+    <form action="success.html">
+        <div class="form-group">
+            <label for="name">Patient Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter patient name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="case">Case Type:</label>
+            <select id="case" name="case">
+                <option>Normal</option>
+                <option>Emergency</option>
+            </select>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
